@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Page</title>
+</head>
+<body>
+<form action="/register" method ="post">
+<fieldset>
+<legend>User Registration Form</legend>
+<label>UserName:</label>
+<input type="text" name="username">
+<br>
+<br>
+<label>Email:</label>
+<input type="email" name="email">
+<br>
+<br>
+<label>Password:</label>
+<input type="password" name="password">
+<br>
+<br>
+<label>Gender: </label>
+<input type="radio" name="gender" value="male"/>M
+<input type="radio" name="gender" value="female"/>F
+<input type="radio" name="gender" value="others"/>O
+<br>
+<br>
+<label>Role: </label>
+<input type="radio" name="role" value="admin"/>Admin
+<input type="radio" name="role" value="customers"/>Customers
+<br>
+<br>
+<label>Address:</label>
+<textarea rows="2" cols="10" name="address"></textarea>
+<br>
+<br>
+<input type="submit" value="Register">
+</fieldset>
+</form>
+</body>
+</html>
